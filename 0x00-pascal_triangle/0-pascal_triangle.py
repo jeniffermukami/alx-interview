@@ -2,8 +2,16 @@
 """
 0-main
 """
-
 def pascal_triangle(n):
+    """
+    Generate Pascal's triangle of height n.
+
+    Parameters:
+    - n (int): The height of the triangle.
+
+    Returns:
+    - List[List[int]]: A list of lists of integers representing Pascal's triangle.
+    """
     if n <= 0:
         return []
     
